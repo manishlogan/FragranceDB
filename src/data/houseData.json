@@ -1,0 +1,24 @@
+{
+    "houses": [
+        {
+            "houseId" : "1",
+            "name": "Montale"
+        },
+        {
+            "houseId" : "2",
+            "name": "Byredo"
+        },
+        {
+            "houseId" : "3",
+            "name": "Ralph Lauren"
+        },
+        {
+            "houseId" : "4",
+            "name": "Georgio Armani"
+        },
+        {
+            "houseId" : "5",
+            "name": "Tom Ford"
+        }
+    ]
+}
