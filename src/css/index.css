@@ -1,0 +1,11 @@
+.float-right{
+    float: right;
+}
+
+input{
+    border-radius: 5px;
+}
+
+#searchResults{
+    margin-top: 20px;
+}

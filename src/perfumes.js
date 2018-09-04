@@ -1,6 +1,7 @@
 import React from 'react';
 import PerfumesData from './data/perfumesData';
 import PerfumeSearchResults from './perfumeSearchResults';
+import './css/index.css'
 
 class Perfumes extends React.Component{
 constructor(props){
@@ -28,12 +29,12 @@ handleChange(event){
 
     render(){
         return(
-            <div class="container">
-                <div>Perfumes Page</div>
+            <div class="container">                
                 <div>
-                    <input type="text" value={this.state.perfumeName} onChange={this.handleChange}/>                    
+                    <input type="text" value={this.state.perfumeName} onChange={this.handleChange} class="col-md-12"
+                    placeholder="Enter Perfume to search"/>  
                 </div>
-                <div>{
+                <div id="searchResults">{
                     this.state.filteredPerfumes.map(function(perfume){
                         return <div><PerfumeSearchResults value={perfume}/></div>
                     })}
